@@ -87,7 +87,7 @@ const Join: React.FC = () => {
                 <div className="schedule-divider"></div>
                 <div className="schedule-item">
                   <div className="schedule-label">Location</div>
-                  <div className="schedule-value">ECCR 131</div>
+                  <div className="schedule-value">ECCR 200</div>
                 </div>
               </div>
             </div>
