@@ -71,7 +71,7 @@ const Home: React.FC = () => (
             Become a part of our vibrant community and start your journey with
             blockchain technology.
           </p>
-          <a href="/Join" className="cta-button">
+          <a href="/join" className="cta-button">
             Join Today
             <svg className="button-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
