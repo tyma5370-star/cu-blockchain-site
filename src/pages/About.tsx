@@ -7,6 +7,8 @@ import MicrosoftLogo from "../assets/microsoft-logo.png";
 import CoinbaseLogo from "../assets/coinbase-logo.png";
 import OptiverLogo from "../assets/optiver-logo.png";
 import GalaxyDigitalLogo from "../assets/galaxy-digital-logo.png";
+import GeminiLogo from "../assets/Gemini.jpg";
+import CircleLogo from "../assets/Circle.png";
 import MBCHackathon from "../assets/mbc-hackathon.jpg";
 import SponsorPrizes from "../assets/sponsor-prizes.jpg";
 import "../styles/AboutDark.css";
@@ -136,6 +138,20 @@ const About: React.FC = () => (
               <img
                 src={GalaxyDigitalLogo}
                 alt="Galaxy Digital"
+                className="logo-image"
+              />
+            </div>
+            <div className="company-logo-card">
+              <img
+                src={GeminiLogo}
+                alt="Gemini"
+                className="logo-image"
+              />
+            </div>
+            <div className="company-logo-card">
+              <img
+                src={CircleLogo}
+                alt="Circle"
                 className="logo-image"
               />
             </div>
