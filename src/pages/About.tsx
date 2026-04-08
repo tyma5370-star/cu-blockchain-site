@@ -141,6 +141,8 @@ const About: React.FC = () => (
                 className="logo-image"
               />
             </div>
+          </div>
+          <div className="company-grid-centered">
             <div className="company-logo-card">
               <img
                 src={GeminiLogo}

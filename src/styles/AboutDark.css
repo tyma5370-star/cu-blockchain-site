@@ -274,6 +274,33 @@
   }
 }
 
+.company-grid-centered {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto 0;
+}
+
+.company-grid-centered .company-logo-card {
+  width: calc(25% - 1.5rem);
+}
+
+@media (max-width: 1024px) {
+  .company-grid-centered .company-logo-card {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 640px) {
+  .company-grid-centered {
+    flex-direction: column;
+  }
+  .company-grid-centered .company-logo-card {
+    width: 100%;
+  }
+}
+
 .company-logo-card {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
